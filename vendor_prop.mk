@@ -104,7 +104,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     debug.sf.enable_hwc_vds=1 \
     debug.sf.enable_gl_backpressure=1 \
     debug.sf.hw=1 \
-    debug.sf.latch_unsignaled=1 \
+    debug.sf.latch_unsignaled=0 \
     dev.pm.dyn_samplingrate=1 \
     persist.demo.hdmirotationlock=false \
     ro.opengles.version=196610 \
@@ -147,7 +147,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Misc
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.sys.disable_rescue=true
-    
+
 # NFC
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.nfc.port=I2C
@@ -200,8 +200,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.data.df.ul_mode=5 \
     persist.data.wda.enable=true \
     persist.rmnet.data.enable=true \
-    persist.data.iwlan.enable=true 
-    
+    persist.data.iwlan.enable=true
+
 # Sense
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.sense.version=9.0
