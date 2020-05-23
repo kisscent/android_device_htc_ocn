@@ -349,7 +349,7 @@
 
     <!-- List of files pinned by the Pinner Service with the apex boot image b/119800099 -->
     <string-array translatable="false" name="config_apexBootImagePinnerServiceFiles">
-        <item>"/system/priv-app/SystemUI/SystemUI.apk"</item>
+        <item>"/product/priv-app/SystemUI/SystemUI.apk"</item>
         <item>"/system/lib64/libsurfaceflinger.so"</item>
     </string-array>
 
