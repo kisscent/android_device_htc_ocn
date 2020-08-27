@@ -493,7 +493,7 @@ PRODUCT_BOOT_JARS += \
 PRODUCT_PACKAGES += \
     LiveWallpapersPicker \
     librs_jni \
-    WallpapersBReel2019
+    WallpapersBReel2019 \
     PixelLiveWallpaperPrebuilt
 
 # Wifi
