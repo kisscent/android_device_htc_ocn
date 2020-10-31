@@ -220,6 +220,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     qdcm_calib_data_WQHD_JDI_S6D1HA2_5.5_command_mode_panel.xml
 
+# Doze
+PRODUCT_PACKAGES += \
+    HTCDoze
+
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-impl \
