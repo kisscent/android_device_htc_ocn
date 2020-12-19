@@ -1203,6 +1203,12 @@ vendor/firmware/venus.mdt
 #vendor/lib/hw/vr.msm8998.so
 #vendor/lib64/hw/vr.msm8998.so
 
+# Wi-Fi Display - from vangogh:11/RKQ1.200826.002
+system_ext/lib/libmmrtpdecoder.so|e50c35366bd428ac29e8a828cfd6b22aa08a0a55
+system_ext/lib/libmmrtpencoder.so|5614934db1f7302b91abf5ed123132b346b24038
+system_ext/lib64/libmmrtpdecoder.so|5f468a1a97b28fa5212205e57b849605d5cb6b10
+system_ext/lib64/libmmrtpencoder.so|42b99f85469607c6c03d3701885e5f198305b971
+
 # Wi-Fi Display - from LA.UM.9.6.2.r1-03300-89xx.0
 -framework/WfdCommon.jar|0faa0fdf415b1ecdc92dfe6a52946a3248b7b02b
 -priv-app/WfdService/WfdService.apk|b99c24571581465e637c7f6a6efc7c36042e56ea
@@ -1237,8 +1243,6 @@ lib64/libwfdclient.so|089cca2d14ec6df309934626bd822722a3232dc8
 lib64/libwfdnative.so|fcea3ccd064171ddd9c2d7ce7bc38df324003937
 system_ext/lib/libmmosal.so|8c7f0a071f84ec2ac9522bf448cb902a3ece2405
 system_ext/lib/libmmparser_lite.so|c15126ec35cd6f484ffcf170a87ccde009d40645
-system_ext/lib/libmmrtpdecoder.so|a990ab20d1c970c827b8e12fe377c4965da7b7f5
-system_ext/lib/libmmrtpencoder.so|c1d969d3600a9b9a7505e4d1f18ab3ac0f111406
 system_ext/lib64/libmmosal.so|ef19a38be8283c87eabe96f74bc8a71881ab1f0a
 system_ext/lib64/libmmparser_lite.so|bd6d507a5c39b4997ded630cc0005673f37763a0
 vendor/bin/wifidisplayhalservice|9a5bbc21cbcaa50263d2cca5f220d8f435933ac6
